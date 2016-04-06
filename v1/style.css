@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'museo_slab500';
+    src: url('http://wwww.modulei.systems/fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.eot');
+    src: url('http://www.modulei.systems/fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.modulei.systems/fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.woff2') format('woff2'),
+         url('http://www.modulei.systems/fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.woff') format('woff'),
+         url('http://www.modulei.systems/fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.ttf') format('truetype'),
+         url('http://www.modulei.systems/fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,
+body {
+   height: 100%;
+   /* The html and body elements cannot have any padding or margin. */
+   padding: 0em;
+   margin: 0em;
+}
+
+body {
+   padding-top: 50px;
+   -webkit-box-sizing: border-box;
+   /* Safari/Chrome, other WebKit */
+   -moz-box-sizing: border-box;
+   /* Firefox, other Gecko */
+   box-sizing: border-box;
+   /* Opera/IE 8+ */
+   background: #fff;
+   overflow-x: hidden;
+   font-family:  'museo_slab500', sans-serif;; /* after debug, enable -> 'museo_slab500', sans-serif;      sans-serif;*/
+   font-size: 1em;
+   word-spacing: .2em;
+   letter-spacing: 0em;
+}
+/*
+   font-family: 'Megrim', cursive;
+   font-family: 'Niconne', cursive;
+   font-family: 'Parisienne', cursive;
+*/
+
+.fill {
+   min-height: 100%;
+   height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+
+#wrap {
+   /* Negative indent footer by its height */
+   margin: 0 auto -60px;
+   /* Pad bottom by footer height */
+   padding: 0 0 120px;
+}
+
+.jumboText {
+   background-color: #88A4B0;
+   min-width: 35em;
+   width: 60%;
+   padding: 2em 1em 4em 1em;
+   position: relative;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   overflow: none;
+   border-radius: 40px;
+}
+
+button:not(.social-button) {
+   margin: 4em 2em 2em 2em;
+}
+.img-thumbnail {
+   border-radius: 20px;
+   overflow: hidden;
+}
+.bg-overlay {
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.bg-overlay-1 {
+   background-color: #ffc;
+   /*background-image: url("http://huney.co/wp-content/uploads/Tulum-Beach-1600x.jpg");*/
+}
+.bg-overlay-2 {
+   /* background-image: url("http://huney.co/wp-content/uploads/Brighton-Beach-Boardwalk-Pt.2-Main.jpg"); */
+   background-color: #ccf;
+}
+.bg-overlay-3 {
+   /* background-image: url("http://huney.co/wp-content/uploads/Slate-Stone-1600x.jpg"); */
+   background-repeat: no-repeat;
+   background-color: #cfc;
+}
+.bg-overlay-4 {
+   /* background-image: url("http://huney.co/wp-content/uploads/Solo-Sail-Boat-1600x.jpg"); */
+   background-repeat: no-repeat;
+   background-color: #d9d;
+}
+
+.bg-overlay-5 {
+   /* background-image: url("http://huney.co/wp-content/uploads/Blue-Wooden-Wall-1600x.jpg"); */
+   color: white;
+   background-repeat: no-repeat;
+   background-color: #aaa;
+}
+
+li {
+   list-style-type: none;
+   padding-bottom: 1.2em;
+
+}
+
+li ul li {
+   list-style-type: disc;
+}
+
+.navbar li {
+   padding-bottom: 0em;
+}
+.navbar li ul li {
+   list-style-type: none;
+}
+
+h1 {
+   text-align: left;
+   color: #FAD8C0;
+   display: inline-block;
+   margin: .2em .5em .5em .5em;
+   font-size: 6em;
+      font-family: 'Megrim', cursive;
+   font-weight: bolder;
+}
+
+h1::after {
+   display: inline-block;
+   content: '';
+   width: .65em;
+   height: 0.2em;
+   border-bottom: 5px solid #171813;
+   position: absolute;
+   bottom: 0em;
+   left: 0em;
+}
+
+h2 {
+   text-align: left;
+   position: relative;
+   margin: .2em .5em .5em .5em;
+   color: #E9AEA1;
+   left: 2em;
+}
+
+h2::after {
+   display: inline-block;
+   content: '';
+   width: .75em;
+   height: 0.2em;
+   border-bottom: 5px solid #B5C3D5;
+   position: absolute;
+   left: 0em;
+}
+
+
+
+h2 li {
+   list-style-type: none;
+   padding-bottom: 0em;
+}
+
+h3.titleText {
+   font-family: 'Niconne', cursive;
+   font-weight: bold;
+   text-align: left;
+   position: relative;
+   margin: 1em 0em;
+   color: #E9AEA1;
+   left: 1em;
+   font-size: 4em;
+}
+div.fill > div.bg-overlay {
+   border-radius: 40px;
+   margin: 2em;
+   padding: 2em;
+}
+h3.titleText::after {
+   margin-top: 1em;
+   display: inline-block;
+   content: '';
+   width: .75em;
+   height: 0.2em;
+   border-top: 5px solid #B5C3D5;
+   position: absolute;
+   bottom: -.1em;
+   left: 0em;
+}
+
+
+.description {
+   font-size: 1.4em;
+   height: auto;
+   color: black;
+   margin: 0em 1em 0em 1em;
+}
+
+
+
+a,
+a:hover {
+   color: black;
+}
+
+a:hover {
+   transition: background-color, color .3s ease-in-out;
+}
+
+#aboutSection, #skillsSection, #cvSection, #portfolioSection, #clientsSection {
+   height: auto;
+}
+
+.contactButtons > li {
+   display: inline;
+}
+.clients-info {
+   margin: .5em 0em;
+   line-height: 2em;
+   font-size: 1.2em;
+}
+
+
+quote {
+   font-family: 'Megrim', cursive;
+   font-weight: bolder;
+   word-wrap: break-word;
+   margin-left: 4em;
+   display:inline-block;
+
+}
+
+#footer, #footer h2 {
+   min-height: 60px;
+   height: auto;
+   background-color: #FB8B72;
+   font-family: 'Megrim', cursive;
+   font-weight: bolder;
+   left: 0em;
+   bottom: 0em;
+   /* background-image: url("http://huney.co/wp-content/uploads/Red-Brick-Wall-Main.jpg"); */
+}
+
+#footer h2::after {
+   border-bottom: 5px solid #B5C3D5;
+   bottom: 0em;
+}
+
+.portfolio-item {
+   /* box-shadow:1px 1px 3px gray, -1px -1px 3px gray; */
+   line-height: 1.2em;
+}
+.portfolio-item::before {
+    display: block;
+    content: "";
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.portfolio-item::after {
+    display: block;
+    content: "";
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.card {
+    overflow: auto;
+    color: black;
+    padding: .2em;
+    line-height: 1.1em;
+    height: 700px;
+}
+.card::before {
+    display: block;
+    content: "";
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.card::after {
+    display: block;
+    content: "";
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.card ul,
+.card h4,
+.card li, {
+    margin: 1em;
+    color: #000;
+    list-style-type: disc;
+   font-size: smaller:
+}
+.card-image {
+    width: 100%;
+    height: 30em;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position:relative;
+    overflow:hidden;
+   padding:0;
+   margin:0;
+}
+
+
+/*
+not using this right now
+
+
+.card-image .banner {
+    height:100px;
+    width:500px;
+    top:0px;
+    right:0px;
+    background-position:top left;
+    background-repeat:no-repeat;
+    position:absolute;
+    color: yellow;
+}
+
+.banner h3 {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    color:#aaf;
+    background:rgba(10,10,10,0.65);
+    margin:0px;
+    padding:6px;
+    border:none;
+}
+
+
+*/

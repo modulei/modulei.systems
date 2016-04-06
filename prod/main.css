@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'museo_slab500';
+    src: url('../fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.eot');
+    src: url('../fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.woff2') format('woff2'),
+         url('../fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.woff') format('woff'),
+         url('../fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.ttf') format('truetype'),
+         url('../fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans500';
+    src: url('../fonts/museosans_500_macroman/MuseoSans_500-webfont.eot');
+    src: url('../fonts/museosans_500_macroman/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museosans_500_macroman/MuseoSans_500-webfont.woff2') format('woff2'),
+         url('../fonts/museosans_500_macroman/MuseoSans_500-webfont.woff') format('woff'),
+         url('../fonts/museosans_500_macroman/MuseoSans_500-webfont.ttf') format('truetype'),
+         url('../fonts/museosans_500_macroman/MuseoSans_500-webfont.svg#museo_sans500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html,
+body {
+   height: 100%;
+   /* The html and body elements cannot have any padding or margin. */
+   padding: 0px;
+   margin: 0px;
+}
+body {
+   -webkit-box-sizing: border-box;
+   /* Safari/Chrome, other WebKit */
+   -moz-box-sizing: border-box;
+   /* Firefox, other Gecko */
+   box-sizing: border-box;
+   /* Opera/IE 8+ */
+   background: #fff;
+   overflow-x: hidden;
+   font-family: 'museo_sans500', sans-serif;
+   font-size: 18px; /* after debug, enable -> 'museo_slab500', sans-serif;      sans-serif;*/
+}
+/*
+   font-family: 'Megrim', cursive;
+   font-family: 'Niconne', cursive;
+   font-family: 'Parisienne', cursive;
+*/
+
+.navbar {
+    padding: 0px 10%;
+}
+#homeSection {
+    padding: 200px 0px;
+}
+
+h1 {
+   font-family: 'museo_slab500';
+   text-shadow: 1px 1px 5px #aaa;
+}
+h2 {
+   font-family: 'museo_sans500';
+   color: #E9AEA1;
+   text-shadow: 1px 1px 3px #aaa;
+}
+h3 {
+   font-family: 'Niconne', cursive;
+   font-weight: bold;
+   color: #9678DB;
+   font-size: 36px;
+   margin-left: 10px;
+   text-shadow: 1px 1px 3px #4a4a4a;
+   letter-spacing: 2px;
+}
+p {
+    padding: 10px 10px;
+}
+
+
+ul {
+    display: block;
+    list-style-type: none;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+ul ul {
+    display: block;
+    list-style-type: none;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    padding-bottom: 20px;
+}
+ul ul ul {
+    list-style-type: disc !important;
+    padding-left: 30px !important;
+    padding-bottom: 10px;
+    font-size:14px;
+}
+
+.navbar ul {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    padding-top: 0px;
+}
+
+.wrap{
+ padding: 0 10%;
+ /* Negative indent footer by its height */
+ margin: 0 auto -60px;
+ /* Pad bottom by footer height */
+ padding: 0 0 60px;
+}
+
+.bg-overlay {
+    background: rgba(221,153,170,1);
+    background: -moz-linear-gradient(-45deg, rgba(221,153,170,1) 0%, rgba(221,153,170,1) 23%, rgba(204,204,255,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(221,153,170,1)), color-stop(23%, rgba(221,153,170,1)), color-stop(100%, rgba(204,204,255,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(221,153,170,1) 0%, rgba(221,153,170,1) 23%, rgba(204,204,255,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(221,153,170,1) 0%, rgba(221,153,170,1) 23%, rgba(204,204,255,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(221,153,170,1) 0%, rgba(221,153,170,1) 23%, rgba(204,204,255,1) 100%);
+    background: linear-gradient(135deg, rgba(221,153,170,1) 0%, rgba(221,153,170,1) 23%, rgba(204,204,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd99aa', endColorstr='#ccccff', GradientType=1 );
+}
+.bg-overlay-2 {
+    background: rgba(255,255,204,1);
+    background: -moz-linear-gradient(-45deg, rgba(255,255,204,1) 0%, rgba(250,216,192,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,204,1)), color-stop(100%, rgba(250,216,192,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,204,1) 0%, rgba(250,216,192,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255,255,204,1) 0%, rgba(250,216,192,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255,255,204,1) 0%, rgba(250,216,192,1) 100%);
+    background: linear-gradient(135deg, rgba(255,255,204,1) 0%, rgba(250,216,192,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffcc', endColorstr='#fad8c0', GradientType=1 );
+}
+.bg-overlay-3{
+    background: rgba(250,216,192,1);
+    background: -moz-linear-gradient(-45deg, rgba(250,216,192,1) 0%, rgba(221,153,170,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(250,216,192,1)), color-stop(100%, rgba(221,153,170,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(250,216,192,1) 0%, rgba(221,153,170,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(250,216,192,1) 0%, rgba(221,153,170,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(250,216,192,1) 0%, rgba(221,153,170,1) 100%);
+    background: linear-gradient(135deg, rgba(250,216,192,1) 0%, rgba(221,153,170,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fad8c0', endColorstr='#dd99aa', GradientType=1 );
+}
+.bg-overlay-4{
+    background: rgba(204,204,255,1);
+    background: -moz-linear-gradient(-45deg, rgba(204,204,255,1) 0%, rgba(204,204,255,1) 49%, rgba(204,255,204,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(204,204,255,1)), color-stop(49%, rgba(204,204,255,1)), color-stop(100%, rgba(204,255,204,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(204,204,255,1) 0%, rgba(204,204,255,1) 49%, rgba(204,255,204,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(204,204,255,1) 0%, rgba(204,204,255,1) 49%, rgba(204,255,204,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(204,204,255,1) 0%, rgba(204,204,255,1) 49%, rgba(204,255,204,1) 100%);
+    background: linear-gradient(135deg, rgba(204,204,255,1) 0%, rgba(204,204,255,1) 49%, rgba(204,255,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccccff', endColorstr='#ccffcc', GradientType=1 );
+}
+
+#aboutSection .bigCard {
+    background-color: #ffffca;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+
+    /* Fallback */
+    background-image: url('../img/leila_photo_transparent_2.png');
+    /* CSS gradients */
+    background-image: url('../img/leila_photo_transparent_2.png'),
+                      -moz-linear-gradient(-45deg, rgba(255,255,204,1) 0%, rgba(250,216,192,1) 100%);
+    background-image: url('../img/leila_photo_transparent_2.png'),
+                      -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,204,1)), color-stop(100%, rgba(250,216,192,1)));
+    background-image: url('../img/leila_photo_transparent_2.png'),
+                      linear-gradient(135deg, rgba(255,255,204,1) 0%, rgba(250,216,192,1) 100%);
+
+    /* IE */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffcc', endColorstr='#fad8c0', GradientType=1 );
+}
+
+.contactButtons li {
+   list-style-type: none;
+   max-width: 300px;
+   padding: 0;
+   margin: 5px;
+}
+
+@media only screen and (max-width: 996px) {
+    #aboutSection .bigCard {
+        background: rgba(255,255,204,1);
+        background: -moz-linear-gradient(-45deg, rgba(255,255,204,1) 0%, rgba(250,216,192,1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,204,1)), color-stop(100%, rgba(250,216,192,1)));
+        background: -webkit-linear-gradient(-45deg, rgba(255,255,204,1) 0%, rgba(250,216,192,1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(255,255,204,1) 0%, rgba(250,216,192,1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(255,255,204,1) 0%, rgba(250,216,192,1) 100%);
+        background: linear-gradient(135deg, rgba(255,255,204,1) 0%, rgba(250,216,192,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffcc', endColorstr='#fad8c0', GradientType=1 );
+    }
+    .contactButtons li {
+        display: inline-block;
+        margin: 10px 10px 10px 0px;
+        max-width: 100%;
+    }
+
+    #aboutSection::after {
+      content: "";
+      background: url('../img/leila_photo_transparent_2.png');
+      opacity: 0.2;
+      filter: alpha(Opacity=20);
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+    }
+    #aboutSection .myphoto{
+        background-image: url("../img/leila_photo_transparent_2.png");
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+        /* Multiple backgrounds values by background-image */
+        /* Do not confuse this with background-size: auto auto */
+        background-size: 100% auto;
+        min-height: 400px;
+    }
+    .banner {
+        padding-top: 0%;
+    }
+}
+
+#projectCardsSection, .bigCard {
+   width: 80%;
+   margin: 20px 10%;
+   border-radius: 30px;
+   height: auto;
+}
+.bigCard:not(#homeSection) {
+   box-shadow: 0 -4px 2px -2px rgba(0,0,0,0.1), 4px 0 2px -2px rgba(0,0,0,0.3), 0 4px 2px -2px rgba(0,0,0,0.3), -4px 0 2px -2px rgba(0,0,0,0.1);
+   padding: 10px 50px 50px 20px;
+}
+/*
+a,
+a:hover {
+   color: black;
+   background-color: #AD310B;
+   transition: background-color .3s ease-in-out;
+}
+
+*/
+.card {
+    color: black;
+    height: auto;
+    padding: 0;
+}
+.card-image {
+    width: auto;
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position:relative;
+    opacity: 1;
+}
+
+/*.card::before {
+    display: block;
+    content: "";
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.card::after {
+    display: block;
+    content: "";
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+*/
+
+.banner {
+    font-family:  'museo_sans500';
+    font-size: 16px;
+    display: inline-block;
+    bottom:0px;
+    color: white;  /*#E9AEA1*/
+    line-height: 12px;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding-top: 20%;
+    padding-left: 20px;
+    font-size:18px;
+    text-shadow: 1px 1px 3px #4a4a4a;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position:absolute;
+
+    background: rgba(255,255,255,0.3);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(189,128,189,0.9) 71%, rgba(140,171,201,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.5)), color-stop(71%, rgba(189,128,189,0.9)), color-stop(100%, rgba(140,171,201,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(189,128,189,0.9) 71%, rgba(140,171,201,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(189,128,189,0.9) 71%, rgba(140,171,201,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(189,128,189,0.9) 71%, rgba(140,171,201,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(189,128,189,0.9) 71%, rgba(140,171,201,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#8cabc9', GradientType=0 );
+}
+.banner:hover{
+    opacity: 0;
+}
+.banner h3{
+    font-family:  'museo_sans500';
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+       text-shadow: 1px 1px 3px #4a4a4a;
+}
+
+.banner ul {
+    -webkit-margin-before:0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+.banner ul li {
+    line-height: 100%;
+    padding: 5px 10px;
+    display: inline-block;
+
+}
+
+
+
+
+#footer,
+#footer h2 {
+   min-height: 60px;
+   background-color: #FB8B72;
+   font-family: 'Megrim', cursive;
+   font-weight: bolder;
+   /* background-image: url("http://huney.co/wp-content/uploads/Red-Brick-Wall-Main.jpg"); */
+}
+
+
+/* BEGIN ANIMATION STUFF
+
+h1{
+    color: black;
+	margin: 0px;
+	white-space:nowrap;
+	overflow: hidden;
+	width: 100%;
+	animation: type 5s steps(45, end) 1;
+}
+
+@keyframes type{
+	from{ width: 0;}
+};
+
+h1 .cursor{
+	opacity: 0;
+}
+
+h1 .cursor{
+	animation: blink 1s 8;
+}
+
+@keyframes blink{
+	to{ opacity: 1.0;}
+}
+
+*/

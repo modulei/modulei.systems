@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'museo_slab500';
+    src: url('http://wwww.modulei.systems/fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.eot');
+    src: url('http://www.modulei.systems/fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.modulei.systems/fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.woff2') format('woff2'),
+         url('http://www.modulei.systems/fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.woff') format('woff'),
+         url('http://www.modulei.systems/fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.ttf') format('truetype'),
+         url('http://www.modulei.systems/fonts/museoslab/museoslab/Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans500';
+    src: url('http://www.modulei.systems/fonts/museosans_500_macroman/MuseoSans_500-webfont.eot');
+    src: url('MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.modulei.systems/fonts/museosans_500_macroman/MuseoSans_500-webfont.woff2') format('woff2'),
+         url('http://www.modulei.systems/fonts/museosans_500_macroman/MuseoSans_500-webfont.woff') format('woff'),
+         url('http://www.modulei.systems/fonts/museosans_500_macroman/MuseoSans_500-webfont.ttf') format('truetype'),
+         url('http://www.modulei.systems/fonts/museosans_500_macroman/MuseoSans_500-webfont.svg#museo_sans500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html,
+body {
+   height: 100%;
+   /* The html and body elements cannot have any padding or margin. */
+   padding: 0em;
+   margin: 0em;
+}
+
+body {
+   padding-top: 300px;
+   -webkit-box-sizing: border-box;
+   /* Safari/Chrome, other WebKit */
+   -moz-box-sizing: border-box;
+   /* Firefox, other Gecko */
+   box-sizing: border-box;
+   /* Opera/IE 8+ */
+   background: #fff;
+   overflow-x: hidden;
+   font-family:  'museo_sans500', sans-serif;; /* after debug, enable -> 'museo_slab500', sans-serif;      sans-serif;*/
+   font-size: 1em;
+   word-spacing: .2em;
+   letter-spacing: 0em;
+}
+/*
+   font-family: 'Megrim', cursive;
+   font-family: 'Niconne', cursive;
+   font-family: 'Parisienne', cursive;
+*/
+
+.navbar {
+   background-color: white;
+}
+
+h1 {
+   font-family: 'museo_slab500';
+}
+
+.avatar {
+   border-radius: 50%;
+   max-height: 300px;
+   background-color: white;
+   margin-left: 25%;
+}
+
+
+
+.bg-overlay {
+background: #bfbeff; /* Old browsers */
+background: -moz-radial-gradient(top left, ellipse cover,  #bfbeff 0%, #de97df 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(top left, ellipse cover,  #bfbeff 0%,#de97df 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at top left,  #bfbeff 0%,#de97df 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfbeff', endColorstr='#de97df',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.bg-overlay-2 {
+background: #ffffca; /* Old browsers */
+background: -moz-radial-gradient(top left, ellipse cover,  #ffffca 0%, #cbffca 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(top left, ellipse cover,  #ffffca 0%,#cbffca 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at top left,  #ffffca 0%,#cbffca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffca', endColorstr='#cbffca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.bg-overlay-3{
+background: #e9aea1; /* Old browsers */
+background: -moz-radial-gradient(top right, ellipse cover,  #e9aea1 0%, #fd8b6e 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(top right, ellipse cover,  #e9aea1 0%,#fd8b6e 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at top right,  #e9aea1 0%,#fd8b6e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9aea1', endColorstr='#fd8b6e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.bg-overlay-4{
+background: #8fb78f; /* Old browsers */
+background: -moz-radial-gradient(top right, ellipse cover,  #8fb78f 0%, #88a4b0 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(top right, ellipse cover,  #8fb78f 0%,#88a4b0 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at top right,  #8fb78f 0%,#88a4b0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fb78f', endColorstr='#88a4b0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+#projectCardsSection, .bigCard {
+   width: 90%;
+   margin: 0% 5%;
+   border-radius: 30px;
+   padding: 2em;
+}
+
+.bigCard:not(#homeSection) {
+   box-shadow: 0 -4px 2px -2px rgba(0,0,0,0.1), 4px 0 2px -2px rgba(0,0,0,0.3), 0 4px 2px -2px rgba(0,0,0,0.3), -4px 0 2px -2px rgba(0,0,0,0.1);
+}
+
+.fill {
+   min-height: 60%;
+   padding-bottom: 5em;
+}
+
+
+ul li {
+   font-size: 1.6em;
+   font-family:  'museo_sans500';
+   list-style-type: none;
+   padding: 1em 0em;
+}
+li ul li {
+   list-style-type: disc;
+   font-size: 1em;
+   padding: 0em 2em 0em 0em;
+}
+h2 {
+   font-family: 'museo_sans500';
+   color: #E9AEA1;
+}
+
+h3.titleText {
+   font-family: 'Niconne', cursive;
+   font-weight: bold;
+   color: #9678DB;
+   font-size: 4em;
+   margin-left: 1em;
+   text-decoration: none;
+   text-decoration-color: #E9AEA1;
+   text-decoration-style: solid;
+}
+
+a,
+a:hover {
+   color: black;
+}
+
+a:hover {
+   background-color: #AD310B;
+   transition: background-color .3s ease-in-out;
+}
+
+.contactButtons > li {
+   display: inline-block;
+}
+.navbar li {
+   display: inline-block;
+   padding: 0;
+   margin: 0;
+   font-family:  'museo_sans500';
+}
+#projectSection {
+   height: auto;
+}
+
+#footer, #footer h2{
+   min-height: 60px;
+   background-color: #FB8B72;
+   font-family: 'Megrim', cursive;
+   font-weight: bolder;
+   /* background-image: url("http://huney.co/wp-content/uploads/Red-Brick-Wall-Main.jpg"); */
+}
+
+.card {
+    color: black;
+    padding: 0em 1em 3em 1em;
+    height: auto;
+
+}
+
+/*
+.card::before {
+    display: block;
+    content: "";
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.card::after {
+    display: block;
+    content: "";
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+*/
+
+.banner ul li,
+.card .banner h3 {
+    margin: 0em .3em;
+    color: black;
+    font-family:  'museo_sans500';
+    font-size: 2em;
+   font-weight: 500;
+    display: inline-block;
+}
+ .card .banner h3 {
+        font-family:  'museo_slab500';
+        font-weight:bolder;
+    bottom:0px;
+    color: black;  /*#E9AEA1*/
+    font-size: 2.5em;
+    margin-left: 1.6em;
+    margin-top: .5em;
+}
+.card-image {
+    width: 100%;
+    height: 30em;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position:relative;;
+   padding:0;
+   margin:0;
+   opacity: 0.8;
+}
+#cvSection{
+   color:black;
+   padding:2em;
+}
+.banner {
+    height: 40%;
+    width: 98%;
+    top: 60%;
+    background:rgba(255,255,255,0.9);
+    background-repeat:no-repeat;
+    position:absolute;
+}
